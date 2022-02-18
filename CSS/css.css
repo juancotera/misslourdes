@@ -1,0 +1,17 @@
+@import 'wrapper.css';
+@import 'header.css';
+
+
+:root{
+  --body2: 700 .875rem/1.6875rem Inter;
+  --primary: #3D348B;
+  --secondary: #F72585;
+  --light: #E1E1F8;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background: var(--light);
+}
+
