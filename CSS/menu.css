@@ -1,0 +1,32 @@
+.menu{
+  display: none;
+}
+
+.menu-items{
+  display: flex;
+  gap: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li{
+  list-style: none;
+}
+
+.menu-items li a{
+  text-decoration: none;
+  font: var(--body2-bold);
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.menu-items li a.select{
+  color: var(--fucsia);
+}
+
+
+@media screen and (min-width: 768px) {
+  .menu{
+    display: block;
+  }
+}

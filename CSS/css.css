@@ -1,17 +1,35 @@
 @import 'wrapper.css';
+@import 'menu.css';
 @import 'header.css';
-
+@import 'hero.css';
+@import 'button.css';
 
 :root{
-  --body2: 700 .875rem/1.6875rem Inter;
-  --primary: #3D348B;
-  --secondary: #F72585;
-  --light: #E1E1F8;
+  --primary: #3d348b;
+  --fucsia: #f72585;
+  --orange: #f35b04;
+  --orangelight: #f18701;
+  --yellow: #f7b801;
+  --bigaro: #7678ed;
+  --lavanda: #e1e1f8;
+  --laurellight: #cad5ca;
+  --white: #fffffe;
+  --headline1: 700 4.5rem/5rem Inter;
+  --headline2: 700 4rem/4.75rem Inter;
+  --headline3: 700 2rem/2rem Inter;
+  --headline4: 700 1.5rem/1.649999976158142rem Inter;
+  --headline5: 700 1.25rem/1.649999976158142rem Inter;
+  --button: 600 1.125rem/1.6875rem Inter;
+  --caption: 400 0.75rem/1.6875rem Inter;
+  --body1-regular: 400 1.125rem/1.6875rem Inter;
+  --body1-bold: 700 1.125rem/1.6875rem Inter;
+  --body2-regular: 400 0.875rem/1.5rem Inter;
+  --body2-bold: 700 0.875rem/1.6875rem Inter;
 }
 
 body{
   padding: 0;
   margin: 0;
-  background: var(--light);
+  background: var(--white);
 }
 
