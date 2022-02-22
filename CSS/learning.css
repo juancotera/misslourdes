@@ -38,10 +38,27 @@
   .learning-grid{
     /* border: 1px solid red; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: [line1]1fr [line2] 1fr [line3]1fr [line4];
     grid-template-rows: 1fr;
     grid-column-gap: 78px;
     grid-row-gap: 0px;
+  }
+
+  .card-learning:nth-last-of-type(1){
+    /* border: 5px solid green; */
 
   }
+  .card-learning:nth-last-of-type(2){
+    /* border: 5px solid red; */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+  }
+
+  .card-learning:nth-last-of-type(3){
+    /* border: 5px solid orange; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+  }
+
 }
