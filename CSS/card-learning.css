@@ -27,6 +27,7 @@ background: var(--lavanda);
 
 .card-learning.select{
   background: var(--fucsia);
+  box-shadow: -8px 15px 15px rgba(247, 37, 133, 0.25), 8px 15px 15px rgba(247, 37, 133, 0.25);
 }
 
 .card-learning.select span{
