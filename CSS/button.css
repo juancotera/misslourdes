@@ -1,14 +1,19 @@
 .button{
   /* border: 1px solid red; */
+  background: var(--fucsia);
   font: var(--button);
   color: var(--white);
-  text-decoration: none;
-  background: var(--fucsia);
-  text-align: center;
   padding-inline-end: 1.5rem;
   padding-inline-start: 1.5rem;
   padding-block-end: .75rem;
   padding-block-start: .75rem;
-  border-radius: .25rem;
   border: none;
+  border-radius: .25rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:active{
+  transform: scale(.95);
 }

@@ -1,0 +1,38 @@
+.card-learning{
+/* border: 1px solid red; */
+inline-size: 13.25rem;
+/* block-size: 14.8125rem; */
+border-radius: .5rem;
+display: flex;
+flex-direction: column;
+gap: .5rem;
+padding: 1rem;
+align-items: center;
+background: var(--lavanda);
+}
+
+.card-learning span{
+  font: var(--headline4);
+  color: var(--primary);
+  text-align: center;
+}
+
+.card-learning p{
+  font: var(--body2-regular);
+  color: var(--primary);
+  text-align: center;
+}
+
+/* Select */
+
+.card-learning.select{
+  background: var(--fucsia);
+}
+
+.card-learning.select span{
+  color: var(--white);
+}
+
+.card-learning.select p{
+  color: var(--white);
+}

@@ -64,6 +64,7 @@
 
   .hero-content{
     max-inline-size: 49.5rem;
+    padding: 0;
   }
 
   .hero-button{

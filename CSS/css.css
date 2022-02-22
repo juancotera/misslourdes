@@ -3,6 +3,8 @@
 @import 'header.css';
 @import 'hero.css';
 @import 'button.css';
+@import 'learning.css';
+@import 'card-learning.css';
 
 :root{
   --primary: #3d348b;
