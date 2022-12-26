@@ -9,6 +9,7 @@ gap: .5rem;
 padding: 1rem;
 align-items: center;
 background: var(--lavanda);
+cursor: pointer;
 }
 
 .card-learning span{
