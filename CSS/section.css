@@ -1,0 +1,94 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+.container-concept {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  margin-block-end: 2rem;
+  margin-block-start: 2rem;
+}
+
+.concept {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concept h2 {
+  font: var(--headline1-abhaya);
+  font-size: 48px;
+  color: var(--orange);
+  text-align: center;
+  line-height: 50px;
+}
+
+.concept p {
+  font: var(--body1-regular);
+  text-align: center;
+  color: var(--primary);
+}
+
+.concept-image {
+  margin: auto;
+}
+
+.concept-image-img {
+  width: 300px;
+  height: 500px;
+  background-image: url(../img/chico-estudiante-mochila-gafas-pie-pensando-idea-vuelta-escuela_1368-18584.webp);
+  background-size: cover;
+  background-position-x: 60%;
+  border-radius: .5rem;
+}
+
+.concept-image-img-2 {
+  width: 300px;
+  height: 500px;
+  background-image: url(../img/nina-estudiante-asiatica-sosteniendo-lupa-mirando-camara-expresion-curiosa_74952-2449.webp);
+  background-size: cover;
+  background-position-x: 60%;
+  border-radius: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .concept-image-img {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-concept {
+    margin: auto;
+    height: 100vh;
+    max-inline-size: 49.5rem;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-block: 0px;
+    padding: 0px;
+  }
+
+  .concept-image-img {
+    width: 500px;
+    height: 800px;
+  }
+
+  .concept-image-img-2 {
+    width: 450px;
+    height: 800px;
+  }
+
+  .concept h2 {
+    text-align: left;
+  }
+
+  .concept p {
+    text-align: left;
+  }
+}

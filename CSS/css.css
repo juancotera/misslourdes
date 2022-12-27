@@ -5,6 +5,7 @@
 @import 'button.css';
 @import 'learning.css';
 @import 'card-learning.css';
+@import 'section.css';
 
 :root{
   --primary: #3d348b;
@@ -27,6 +28,12 @@
   --body1-bold: 700 1.125rem/1.6875rem Inter;
   --body2-regular: 400 0.875rem/1.5rem Inter;
   --body2-bold: 700 0.875rem/1.6875rem Inter;
+  --headline1-abhaya: 700 4.5rem/5rem Abhaya-libre;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -36,7 +43,13 @@ body{
 }
 
 
-.container-header-hero {
-  background-image: url(../img/background.svg);
-  height: 100vh;
+
+
+@media screen and (min-width: 1024px) {
+  .container-header-hero {
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
+

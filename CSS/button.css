@@ -17,3 +17,7 @@
 .button:active{
   transform: scale(.95);
 }
+
+.button i {
+  padding-right: .5rem;
+}
