@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--primary);
+}
+
+.footer-content {
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-content p {
+  font: var(--body1-regular);
+  color: var(--white);
+  text-align: center;
+}
+
+.footer-content a {
+  color: var(--white);
+}
+
+.footer-redes {
+  display: flex;
+  gap: 1rem;
+}

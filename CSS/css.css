@@ -6,6 +6,7 @@
 @import 'learning.css';
 @import 'card-learning.css';
 @import 'section.css';
+@import 'footer.css';
 
 :root{
   --primary: #3d348b;
