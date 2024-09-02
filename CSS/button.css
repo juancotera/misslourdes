@@ -21,3 +21,19 @@
 .button i {
   padding-right: .5rem;
 }
+
+.cta {
+  border-radius: 30px;
+  width: fit-content;
+  box-shadow: 6px 6px 0px 0px #DBDBDB;
+}
+
+.fucsia {
+  background-color: var(--fucsia);
+}
+.orange {
+  background-color: var(--orange);
+}
+.bigaro {
+  background-color: var(--bigaro);
+}
