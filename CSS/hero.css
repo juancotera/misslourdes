@@ -4,7 +4,7 @@
 
 .hero-content{
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   align-items: center;
   /* border: 1px solid red; */
   width: 100%;
@@ -72,7 +72,7 @@
   color: var(--black);
 }
 
-.hero-button input {
+.card-cta-hero input {
   padding: 8px 16px;
   text-align: center;
   color: var(--primary);
@@ -86,6 +86,10 @@
   color: var(--bigaro);
   opacity: .5;
   font-size: .8rem;
+}
+
+.hero-content-img {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {

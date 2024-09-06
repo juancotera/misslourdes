@@ -7,6 +7,8 @@
 @import 'card-learning.css';
 @import 'section.css';
 @import 'footer.css';
+@import 'testimonios.css';
+@import 'contacto.css';
 
 :root{
   --primary: #3d348b;
@@ -26,7 +28,7 @@
   --headline5: 700 1.25rem/1.649999976158142rem Inter;
   --button: 600 1.125rem/1.6875rem Inter;
   --caption: 400 0.75rem/1.6875rem Inter;
-  --body1-regular: 400 1.125rem/1.6875rem Inter;
+  --body1-regular: 400 1rem/1.6875rem Inter;
   --body1-bold: 700 1.125rem/1.6875rem Inter;
   --body2-regular: 400 0.875rem/1.5rem Inter;
   --body2-bold: 700 0.875rem/1.6875rem Inter;
@@ -44,7 +46,19 @@ body{
   background: var(--white);
 }
 
+.c-bigaro {
+  color: var(--bigaro) !important;
+}
+.bg-bigaro {
+  background: var(--bigaro) !important;
+}
 
+.c-orangelight {
+  color: var(--orangelight) !important;
+}
+.bg-orangelight {
+  background: var(--orangelight) !important;
+}
 
 @media screen and (min-width: 1024px) {
   .container-header-hero {
