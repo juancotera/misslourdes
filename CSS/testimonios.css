@@ -39,9 +39,12 @@
 .testimonio-nombre {
   font-weight: bold;
   margin-bottom: 10px;
+  font: var(--headline5);
+  color: var(--primary);
 }
 
 .testimonio-mensaje {
+  font: var(--body1-regular);
   font-style: italic;
   color: #555;
   line-height: 1.6;
