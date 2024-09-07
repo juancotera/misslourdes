@@ -4,3 +4,21 @@
   margin: auto;
   padding-inline: .5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-inline-size: 46.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-inline-size: 64rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    max-inline-size: 90rem;
+  }
+}

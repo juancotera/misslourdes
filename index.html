@@ -28,12 +28,12 @@
             </a>
             <nav class="menu">
               <ul class="menu-items">
-                <li><a href="#">INICIO</a></li>
+                <li><a href="#home">INICIO</a></li>
                 <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">CLASES</a></li>
-                <li><a href="#">MATERIALES</a></li>
-                <li><a href="#" class="select">CAPACITACIONES</a></li>
-                <li><a href="#">contacto</a></li>
+                <li><a href="#clases">CLASES</a></li>
+                <li><a href="#materiales">MATERIALES</a></li>
+                <li><a href="#capacitaciones" class="select">CAPACITACIONES</a></li>
+                <li><a href="#contacto">contacto</a></li>
               </ul>
             </nav>
         </div>
@@ -59,7 +59,8 @@
           </div>
           <div class="card-cta-hero">
             <input type="text" id="nombre" placeholder="🤗 Hola cual es tu nombre...">
-            <a onclick="enviarMensaje()" target="_blank" class="button cta"><i class="bi bi-whatsapp"></i>Comienza ahora</a>
+            <!-- <a onclick="enviarMensaje()" target="_blank" class="button cta"><i class="bi bi-whatsapp"></i>Comienza ahora</a> -->
+            <a id="sent-wapp" target="_blank" class="button cta"><i class="bi bi-whatsapp"></i>Comienza ahora</a>
           </div>
         </div>
       </div>
@@ -119,8 +120,8 @@
           </div>
         </div> -->
         <div class="section-cards">
-          <div class="section-card">
-            <img class="section-card-img" src="" alt="">
+          <div class="section-card" id="clases">
+            <img class="section-card-img" src="./img/clases-particulares.png" alt="" width="563.5">
             <div class="section-card-details">
               <h3>Clases Particulares</h3>
               <p>Clases virtuales y presenciales, enfocadas en niños de 6 a 10 años.</p>
@@ -134,43 +135,43 @@
               <p>Las clases particulares ofrecen un aprendizaje personalizado que refuerza las áreas de dificultad, mejora la comprensión
               y desarrolla habilidades clave como la organización y el pensamiento crítico. Además, aumentan la confianza de los niños
               al superar desafíos académicos, con la flexibilidad de optar por clases virtuales o presenciales.</p>
-              <a class="button" href="#">Separa tu lugar 🥳</a>
+              <a class="button" href="#" id="separar-clases">Separa tu lugar 🥳</a>
             </div>
           </div>
-          <div class="section-card">
-            <img class="section-card-img" src="" alt="">
+          <div class="section-card" id="materiales">
+            <img class="section-card-img" src="./img/material-educativo.png" alt="" width="563.5">
             <div class="section-card-details">
               <h3 class="c-bigaro">Materiales Educativos</h3>
-              <p>Materiales tanto pedagógicos como de ambientación, descargable e imprimible.</p>
-              <span>Servicios:</span>
+              <p>Banners, hojas de práctica, moldes para manualidades y más.</p>
+              <span>Servicios</span>
               <div class="section-card-servicios">
                 <li>Banners para imprimir y pintar.</li>
                 <li>Hojas de práctica..</li>
                 <li>Moldes para manualidades.</li>
               </div>
-              <span>Beneficios::</span>
-              <p>Las clases particulares ofrecen un aprendizaje personalizado que refuerza las áreas de dificultad, mejora la comprensión
-              y desarrolla habilidades clave como la organización y el pensamiento crítico. Además, aumentan la confianza de los niños
-              al superar desafíos académicos, con la flexibilidad de optar por clases virtuales o presenciales.</p>
+              <span>Beneficios:</span>
+              <p>Los materiales educativos son fáciles de descargar y usar, fomentan la creatividad de los niños con diseños atractivos y
+              actividades prácticas, y refuerzan conceptos clave de manera efectiva. Son adaptables a distintos niveles y estilos de
+              enseñanza, ahorrando tiempo a maestros y padres.</p>
               <a class="button bg-bigaro" href="#">Ver tienda 🏪</a>
             </div>
           </div>
-          <div class="section-card">
-            <img class="section-card-img" src="" alt="">
+          <div class="section-card" id="capacitaciones">
+            <img class="section-card-img" src="./img/capacitación-docente.png" alt="" width="563.5">
             <div class="section-card-details">
               <h3 class="c-orangelight">Capacitación para Maestros</h3>
-              <p>Materiales tanto pedagógicos como de ambientación, descargable e imprimible.</p>
+              <p>herramientas prácticas y metodológicas a docentes de primaria.</p>
               <span>Servicios:</span>
               <div class="section-card-servicios">
                 <li>Capacitación para Maestros.</li>
                 <li>Uso de tecnología en el aula.</li>
                 <li>Manejo de aula.</li>
               </div>
-              <span>Beneficios::</span>
-              <p>Las clases particulares ofrecen un aprendizaje personalizado que refuerza las áreas de dificultad, mejora la comprensión
-              y desarrolla habilidades clave como la organización y el pensamiento crítico. Además, aumentan la confianza de los niños
-              al superar desafíos académicos, con la flexibilidad de optar por clases virtuales o presenciales.</p>
-              <a class="button bg-orangelight" href="#">Inscribirse ahora 🥳</a>
+              <span>Beneficios:</span>
+              <p>Las capacitaciones ofrecen a los maestros herramientas actualizadas, mejoran sus estrategias de enseñanza y manejo de
+              aula, y promueven la implementación efectiva de recursos educativos. Los talleres prácticos impulsan su desarrollo
+              profesional, permitiéndoles ofrecer una enseñanza más efectiva y centrada en las necesidades de sus estudiantes.</p>
+              <a class="button bg-orangelight" href="#" id="inscribirse">Inscribirse ahora 🥳</a>
             </div>
           </div>
         </div>
@@ -233,15 +234,15 @@
     </div>
   </div> -->
 
-  <section class="contact">
+  <section class="contact" id="contacto">
     <div class="wrapper">
       <div class="contact-content">
         <form action="">
           <span>Contáctanos</span>
-          <input type="text" placeholder="Nombre">
-          <input type="email" placeholder="Correo electrónico">
-          <textarea rows="8" name="" id="" placeholder="Mensaje"></textarea>
-          <button class="button">Enviar mensaje</button>
+          <input type="text" placeholder="Nombre" id="name-form">
+          <input type="email" placeholder="Correo electrónico" id="email-form">
+          <textarea rows="8" name="" placeholder="Escribe algo aquí..." id="mensaje-form"></textarea>
+          <button class="button" id="enviar-form">Enviar mensaje</button>
         </form>
         <div class="social">
           <span>Síguenos</span>

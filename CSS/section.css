@@ -60,39 +60,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .concept-image-img {
-    margin: auto;
+  .section-card {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .section-card-img {
+    display: block;
+    width: 328px;
+    object-fit: cover;
+    border-radius: 1rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .container-concept {
-    margin: auto;
-    height: 100vh;
-    max-inline-size: 49.5rem;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    margin-block: 0px;
-    padding: 0px;
+  .section-card {
+    max-inline-size: 1183px;
   }
-
-  .concept-image-img {
-    width: 500px;
-    height: 800px;
-  }
-
-  .concept-image-img-2 {
-    width: 450px;
-    height: 800px;
-  }
-
-  .concept h2 {
-    text-align: left;
-  }
-
-  .concept p {
-    text-align: left;
+  .section-card-img {
+    width: 563.5px;
   }
 }
